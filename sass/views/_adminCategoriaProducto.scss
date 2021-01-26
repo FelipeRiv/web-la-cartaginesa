@@ -1,0 +1,9 @@
+// Utilities 
+@import "../utilities/variables";
+@import "../utilities/functions";
+@import "../utilities/mixins";
+
+input[type="file"]#fulAddImagen {
+    display: none;
+}
+

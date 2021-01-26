@@ -1,0 +1,321 @@
+/* General */
+.wd-45 {
+    /* width: 450px; */
+    width: 45%;
+}
+
+.wd-95 {
+    /* width: 450px; */
+    width: 95%;
+}
+
+.wd-100 {
+    /* width: 450px; */
+    width: 100%;
+}
+
+.container-50 {
+    /* width: 450px; */
+    width: 50%;
+}
+
+.container-100 {
+    width: 100%;
+}
+
+
+.sc-1:hover {
+    transition: 0.3s;
+    scale: 1.02 !important;
+}
+
+.sc-2:hover {
+    transition: 0.3s;
+    scale: 1.04 !important;
+}
+
+.txt-sh1:hover {
+    transition: 0.3s;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.anim-sh-2 :hover {
+    transition: 0.4s;
+    scale: 1.02;
+
+}
+
+
+/* Fin General */
+
+/* html, body{
+    overflow-x: hidden;
+} */
+
+/*  ***** Menu ***** */
+
+/* Boton Responsive Menu */
+#btn-menu {
+    margin-left: 95%;
+    margin-top: -14%;
+}
+
+/* Fin imagenes y logos */
+
+/* Titulos y subtitulos */
+
+.subtitle-menu {
+    position: absolute;
+    margin-top: 70px;
+    margin-left: -238px;
+    font-size: 16px;
+}
+
+#top-menu .list-menu-1 {
+    margin-top: 40px;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+
+
+/* Fin Titulos y subtitulos */
+
+/* Fin  ***** Menu ***** */
+
+
+/* ***** Iconos logos e imagenes *****  */
+
+/* font icons de menu */
+
+.corp-logo {
+    width: 100px;
+}
+
+#corp-logo-an:hover {
+    transition: 0.4s;
+    scale: 1.03;
+
+}
+
+/*Iconos Font los que tengan icon al inicio */
+#top-menu span[class^="icon-"] {
+    position: relative;
+    font-size: 24px;
+    margin-top: 12px;
+}
+
+/*Iconos Font los que tengan icon al inicio */
+#bot-menu span[class^="icon-"] {
+
+    font-size: 24px;
+    margin-top: 12px;
+}
+
+/* bandera cr */
+#menu-flag {
+    margin-top: 14px;
+}
+
+#menu-flag img {
+    position: relative;
+
+    width: 30px;
+}
+
+
+
+#top-menu li a:hover {
+    text-shadow: black 0.1em 0.1em 0.2em;
+    transition: 0.4s;
+    scale: 1.05;
+
+}
+
+#bot-menu li a:hover {
+    text-shadow: black 0.1em 0.1em 0.2em;
+    transition: 0.4s;
+    scale: 1.05;
+
+}
+
+
+
+/* Fin font icons de menu */
+
+
+/* Fin *****Iconos logos e imagenes ***** */
+
+
+/*  Media Queries */
+
+@media (min-width: 992px) {
+
+    /* separacion de items de menu */
+    #bot-menu span[class^="icon-"]{
+        display: block;
+        text-align: center;
+        border-right: white;
+    }
+    
+    #bot-menu ul{
+        margin: auto;
+    }
+    #top-menu a{
+        margin-left: auto;
+        margin-left: 0.9vw;
+        border: white;
+        border-right: white;
+    }
+    #bot-menu a{
+        
+        
+        margin-right: 2.5vw;
+        border: white;
+        border-right: white;
+    }
+    /* separacion de items de menu */
+
+    #bot-menu div#navbarSupportedContent{
+        margin-top: -30px;
+    }
+
+    
+    /* Fin Menu */
+}
+
+@media (max-width: 992px) {
+
+    /* Menu */
+    #corp-logo-an:hover {
+        transition: 0.4s;
+        scale: none;
+
+    }
+
+    /* Fin Menu */
+}
+
+@media (max-width: 767px) {
+
+    /* Fin Menu */
+    #btn-menu {
+        /* margin-left: 95%; */
+        margin-top: -19%;
+    }
+
+    /* Fin Menu */
+}
+
+@media (max-width: 600px) {
+
+    /* Menu */
+    #btn-menu {
+        margin-left: 90%;
+        /* margin-top: -18%; */
+    }
+
+    /* Fin Menu */
+}
+
+@media (max-width: 576px) {
+
+    /* Menu */
+    #btn-menu {
+        margin-left: 85%;
+        margin-top: -18%;
+    }
+
+    .corp-logo {
+        width: 80px;
+        padding-bottom: 12px;
+    }
+
+    .subtitle-menu {
+        margin-top: 12%;
+        font-size: 14px;
+    }
+
+    /* Fin Menu */
+}
+
+@media (max-width: 476px) {
+
+    /* Menu */
+    #btn-menu {
+        margin-top: -21%;
+    }
+
+    .corp-logo {
+        width: 65px;
+        padding-bottom: 20px;
+    }
+
+    .subtitle-menu {
+        margin-top: 13%;
+    }
+
+
+    /* Fin Menu */
+}
+
+@media (max-width: 430px) {
+
+    /* Menu */
+    #btn-menu {
+        margin-left: 85%;
+        margin-top: -24%;
+    }
+
+    .corp-logo {
+        width: 15vw;
+        padding-bottom: 24px;
+        margin: 2px -5px 5px 10px;
+        padding: 5px 0px;
+    }
+
+    .title-0 {
+        font-size: 4.0vw;
+    }
+
+    .subtitle-menu {
+        margin-top: 12%;
+        margin-left: -47.1vw;
+        font-size: 2.9vw;
+
+    }
+
+    /* Fin Menu */
+}
+
+@media (max-width: 345px) {
+
+    /* Menu */
+    #btn-menu {
+        margin-top: -18%;
+    }
+
+    header {
+        /* padding-bottom: 17px; */
+        margin-bottom: 17px;
+    }
+
+    .subtitle-menu {
+        margin-left: -58vw;
+        font-size: 3.2vw;
+
+    }
+
+    .corp-logo {
+        width: 11vw;
+        padding-bottom: 2%;
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .title-0 {
+        font-size: 5vw;
+    }
+
+    /* Fin Menu */
+}

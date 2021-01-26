@@ -1,0 +1,19 @@
+//Base
+@import "base/global";
+
+// Utilities //
+@import "utilities/variables";
+@import "utilities/functions";
+@import "utilities/mixins";
+// componentes
+@import "components/div-productos";
+// layout 
+@import "layout/_navigation";
+@import "layout/_footer";
+
+@import "responsive/mediaQuery";
+
+//Views
+@import "views/adminCategoriaProducto";
+@import "views/contactenos";
+@import 'views/productos';

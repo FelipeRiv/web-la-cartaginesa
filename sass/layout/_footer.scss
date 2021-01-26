@@ -1,0 +1,81 @@
+
+
+footer{
+
+    margin-top: 15px;
+    padding: 10px 0px;
+    text-align: center;
+    transition: 300ms;
+
+
+    bottom: 0; 
+
+    a{
+        color: white;
+        &:hover{
+            color: rgb(235, 233, 233);    
+        }
+    }
+
+    // -- icons 
+    #ft-icon-group{
+        border-bottom: 1px solid white;
+        padding-bottom: 5px;
+        a {
+            font-size: 30px;
+            
+            // propiedades de iconos 
+            span[class^="icon-"] {
+                font-size: 25px;
+                margin: 4px;
+                color: #fff;
+                &:hover{
+                    color: rgb(190, 189, 189);
+                    scale: 1.2;
+                }
+            }
+            &:nth-child(3) span {
+                @include icon-Whats;
+            }
+            &:hover{
+                color: transparent;
+                // scale: 1.2;
+            }
+        }
+            
+    }
+
+    #ft-menu{
+        margin: 10px;
+        transition: 300ms;
+
+        ul{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        li{
+            list-style: none;
+            font-size: 20px;
+            flex-basis: 150px;
+        }
+
+        a{
+            &:hover{
+                transform: scale(1.5);
+                color: rgb(235, 233, 233);   
+            }
+        }
+
+    }
+    
+}
+
+.lead-text{
+    font-weight: 600;
+    
+}
+
+
+

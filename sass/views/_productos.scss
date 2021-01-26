@@ -1,0 +1,49 @@
+@import "../utilities/variables";
+// @import "../utilities/functions";
+// @import "../utilities/mixins";
+
+.content{
+
+    display: grid;
+			grid-template-columns: repeat(4, 1fr);
+			grid-auto-rows:  auto;
+			grid-gap: 10px;
+			max-width: 100%;
+			margin: 0 auto;
+            grid-template-areas:
+                "header header header header"
+                "pc pc pc pc"
+                "footer footer footer footer";
+		
+
+}
+
+header{
+    grid-area: header;
+}
+
+.container{
+    grid-area: pc;
+}
+
+footer{
+    grid-area: footer;
+}
+
+#sectionProducts{
+   
+    margin-bottom: 2.5vh;
+    min-height: 330px;
+
+    // .img-responsive{display:block;max-width:100%;height:auto}
+
+    .img-product{
+        
+        // * images will fit without resize them
+        max-width: 100%;
+        height: 150px;
+
+        // * values: contain cover fill
+        object-fit: contain;
+    }
+}

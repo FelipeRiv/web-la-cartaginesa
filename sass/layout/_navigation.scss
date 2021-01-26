@@ -1,0 +1,104 @@
+// Utilities 
+@import "../utilities/variables";
+@import "../utilities/functions";
+@import "../utilities/mixins";
+
+#top-menu {
+
+    .corp-logo {
+        width: 100px;
+    }
+
+    #menu-flag img {
+        width: 35px;
+    }
+
+    #title-menu {
+        position: relative;
+        top: 7px;
+    }
+
+    #subtitle-menu {
+        position: relative;
+        top: 35px;
+        margin-left: -242px;
+
+        font-size: 16px;
+    }
+
+    .list-menu-1 {
+
+        // tamaños iconos 
+        span[class^="icon-menu"] {
+            font-size: 24px;
+
+        }
+
+        li{
+        
+            &:nth-child(4) span{
+
+            @include icon-Whats-Menu;
+            
+            }
+        }
+
+
+    }
+
+    ul {
+        // posicion de todos los elementos iconos del ul 
+    
+        @include pos-Ico1(relative, 27px);
+
+        // posicionamiento del icono bandera del ul  
+        li {
+            &:first-child {
+                // position: relative;
+                // top: 5px;
+                @include pos-Ico1(relative, 5px);
+            }
+        }
+    }
+}
+
+// -- Medias @
+
+@media(max-width: 991px){
+    .list-menu-2{
+        text-align: center;
+        li{
+
+            border: 1px solid transparent;
+            // TODO fix this
+            &:hover{
+                color: rgb(231, 230, 230);
+                border: 1px solid white;
+                text-decoration-style: solid;
+                text-decoration-color: white;
+            }
+        }
+        
+        span[class^="icon-"] {
+            display: block;
+            &:hover{
+                color: rgb(211, 211, 211);
+                scale: 1.5;
+            }
+        }
+    }
+}
+@media(max-width: 390px){
+
+    #top-menu {
+
+        .corp-logo {
+            width: 65px;
+        }
+
+        #subtitle-menu{
+           font-size: 14px;
+        //    font-weight: 600;
+        }
+    }
+}

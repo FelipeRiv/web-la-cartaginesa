@@ -1,0 +1,24 @@
+//POSITION DE ICONO
+@mixin pos-Ico1($position:relative, $top:0px) {
+    position: $position;
+    top: $top;
+}
+
+//WHATSAPP COLOR ICON
+@mixin  icon-Whats {
+    color: white;
+    background-color: $green-whats;
+    border-radius: 100px;
+    padding: 0px;
+    // margin-left: 25px;
+    // margin-right: 25px;
+}
+
+@mixin  icon-Whats-Menu {
+    color: white;
+    background-color: $green-whats;
+    border-radius: 100px;
+    padding: 0px;
+    margin-left: 25px;
+    margin-right: 25px;
+}

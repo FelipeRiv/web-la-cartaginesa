@@ -1,0 +1,30 @@
+@import '../utilities/_variables';
+
+$lg-wd: 992px;
+
+@media (min-width: $lg-wd){
+
+    #bot-menu{
+
+        .list-menu-2{
+    
+            margin: 0px auto;
+    
+            li {
+
+                a{
+                    margin-right: 2.5vw;
+                }
+    
+                span[class^="icon-"]{
+                    display: block;
+                    text-align: center;
+                    font-size: 24px;
+                }
+    
+            }
+    
+        } 
+    }
+
+}

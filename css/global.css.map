@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "mappings": "AAKA,AAAA,IAAI,CAAA;EACA,UAAU,ECQH,KAAK;CDNf;;AAED,AAAA,WAAW,CAAA;EAEP,UAAU,EAAE,IAAI;CACnB",
+    "sources": [
+        "../sass/base/global.scss",
+        "../sass/utilities/_variables.scss",
+        "../sass/utilities/_functions.scss",
+        "../sass/utilities/_mixins.scss"
+    ],
+    "names": [],
+    "file": "global.css"
+}

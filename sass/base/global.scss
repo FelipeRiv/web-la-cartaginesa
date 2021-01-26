@@ -1,0 +1,14 @@
+// Utilities 
+@import "../utilities/variables";
+@import "../utilities/functions";
+@import "../utilities/mixins";
+
+body{
+    background: $cl-light;
+      
+}
+
+.height-fix{
+    // min-height: 520px;
+    min-height: 80vh;
+}
