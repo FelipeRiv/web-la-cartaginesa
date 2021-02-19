@@ -68,5 +68,6 @@ const resetTableRows = (idTableName) => {
 $(document).ready(() => {
 
     listarClientesTable();
+    dataTable('tablaClientes', 'ES');
 
 }); //jq

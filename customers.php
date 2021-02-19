@@ -21,7 +21,7 @@
      <link rel="stylesheet" href="lib/bootstrap/css/bootstrap-reboot.min.css">
      <link rel="stylesheet" href="lib/bootstrap/css/bootstrap-grid.min.css">
      
-     <link rel="stylesheet" href="http://cdn.datatables.net/1.10.2/css/jquery.dataTables.min.css"></style>
+     <link rel="stylesheet" href="lib/datatables/jquery.dataTables.min.css">
 
      <!-- iconos -->
      <link rel="stylesheet" href="css/styleFonts.css">
@@ -212,7 +212,7 @@
      <!-- * external libraries -->
      <script src="lib/jquery-3.5.1.min.js"> </script>
 
-     <script type="text/javascript" src="http://cdn.datatables.net/1.10.2/js/jquery.dataTables.min.js"></script>
+     <script src="lib/datatables/jquery.dataTables.min.js"></script>
 
      <script src="lib/popper.min.js"> </script>
      <script src="lib/bootstrap/js/bootstrap.min.js"> </script>
@@ -233,32 +233,8 @@
      <script src="js/controller/controller_mjs_alertas.js"></script>
      <script src="js/controller/controller_form_contacto.js"></script>
 
-     <script>
-$(document).ready(function(){
-    $('#tablaClientes').dataTable({
-        language: {
-            search: 'Buscar',
-            paginate: {
-                first: 'Primero',
-                last: 'Último',
-                next: 'Siguiente',
-                previous: 'Anterior'
-            },
-            "info": "Mostrando registros del _START_ al _END_ de un total de _TOTAL_ registros",
-            "infoFiltered": "(filtrado de un total de _MAX_ registros)",
-            "processing": "Procesando...",
-            "lengthMenu": "Mostrar _MENU_ registros",
-            "zeroRecords": "No se encontraron resultados",
-            "emptyTable": "Ningún dato disponible en esta tabla",
-            // count: {'total'},
-            // countFiltered: {'shown'} "({total})",
-            emptyPanes: 'Sin paneles de búsqueda',
-            loadMessage: 'Cargando paneles de búsqueda',
-            title: 'Filtros Activos - %d'
-        }
-    });
-});
-</script>
+     <script src="lib/datatables/app-datatables.js"></script>
+
  </body>
 
 
