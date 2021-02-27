@@ -97,6 +97,8 @@
 
      <script src="./js/cart/controller-cart.js"></script>
 
+     <script src="./js/controller/controller-form-general.js"></script>
+
 
      <script >
 

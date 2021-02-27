@@ -1,5 +1,5 @@
-<form action="" method="POST" class=" col-sm-12 mx-auto col-lg-12 mb-3"
-                 id="form-cart">
+<form class=" col-sm-12 mx-auto col-lg-12 mb-3"
+                 id="form-contactenos">
                  <h2>Formulario de cotización </h2>
 
                  <h3>Se adjuntarán los datos de carrito y su informacón para hacerle llegar por correo la cotización.</h3>

@@ -3,8 +3,9 @@ $(document).ready( () => {
     const divCart = $('#div-cart');
     const empyCart = $('#empy-cart');
     const tableCart = $('#tb-cart');
+    const formCart = $('#form-contactenos');
 
-     // Enables tool tips in bootstrap
+    // Enables tool tips in bootstrap
     $(() => {
         $('[data-toggle="tooltip"]').tooltip();
     });
@@ -138,8 +139,17 @@ $(document).ready( () => {
 
 
     // **************
-
+    formCart.trigger("reset");
     cart();
+
+
+    // -- Events
+
+    formCart.submit((e) => { 
+        e.preventDefault();
+        
+        console.log(`hola`);
+    });
     
     
 
