@@ -1,0 +1,55 @@
+@import "../utilities/variables";
+
+.tb-cart{
+    text-align: center;
+    background-color: $dark-table !important;
+    // color: white;
+    
+    &__cell{
+        padding: 4px !important;
+        vertical-align: middle !important;
+    }
+
+    &__main-figure{
+        margin: 0px !important;
+
+    }
+    
+    &__main-img{
+        max-height: 80px !important;
+        object-fit: contain !important;
+    }
+
+    &__form-group{
+        margin: 10px;
+        padding: 12px !important;
+    }
+    
+
+    &--cell-img{
+        max-width: 110px !important;
+        text-align: center;
+    }
+
+    &--cell-name{
+        min-width: 100px
+    }
+
+    &--cell-quantity{
+        margin: 3px;
+        min-width: 200px;
+        max-width: 290px ;
+    }
+
+   
+}
+
+// TODO cambiar clases con render en tables para conservar estilos
+
+tr{
+
+
+    &:hover{
+        background-color: $dark-table-hover;
+    }
+}

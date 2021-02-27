@@ -21,7 +21,9 @@
      <link rel="stylesheet" href="lib/bootstrap/css/bootstrap-reboot.min.css">
      <link rel="stylesheet" href="lib/bootstrap/css/bootstrap-grid.min.css">
      
-     <link rel="stylesheet" href="lib/datatables/jquery.dataTables.min.css">
+     <!-- <link rel="stylesheet" href="lib/datatables/jquery.dataTables.min.css"> -->
+
+     <link rel="stylesheet" href="css/dataTables.css">
 
      <!-- iconos -->
      <link rel="stylesheet" href="css/styleFonts.css">
@@ -43,7 +45,7 @@
          <h1>Clientes</h1>
 
 
-         <table class="table table-hover" id="tablaClientes">
+         <table class="table table-dark table-hover" id="tablaClientes">
              <thead>
                  <tr class="bg-primary text-white">
                      <th scope="col">ID</th>

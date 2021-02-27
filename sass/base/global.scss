@@ -3,12 +3,30 @@
 @import "../utilities/functions";
 @import "../utilities/mixins";
 
-body{
-    background: $cl-light;
-      
-}
 
 .height-fix{
     // min-height: 520px;
     min-height: 80vh;
+}
+
+// Dark Theme
+@media (prefers-color-scheme: dark) {
+    h1{
+        color: $cl-light;
+    }
+
+    body{
+        background: $dark-theme;
+    }
+}
+
+// Light Theme
+@media (prefers-color-scheme: light) {
+    h1{
+        color: $cl-dark;
+    }
+
+    body{
+        background: $white-theme;
+    }
 }
