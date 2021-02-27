@@ -1,13 +1,13 @@
 $(document).ready( () => {
 
-    // Enables tool tips in bootstrap
-    $(() => {
-        $('[data-toggle="tooltip"]').tooltip();
-    });
-
     const divCart = $('#div-cart');
     const empyCart = $('#empy-cart');
     const tableCart = $('#tb-cart');
+
+     // Enables tool tips in bootstrap
+    $(() => {
+        $('[data-toggle="tooltip"]').tooltip();
+    });
 
     //* RENDER COMPONENTS FOR DATATABLES
     const tdImgPath = (data) => (`

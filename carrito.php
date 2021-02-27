@@ -43,7 +43,7 @@
     ?>
 
      <div class="container height-fix">
-         <div class="row">
+        <div class="row">
 
              <h1 class="mb-4">Carrito de Cotización</h1>
 
@@ -77,6 +77,8 @@
                 </table>
     
             </div>
+
+            <?php include "./php/components/cart/form-cart.php"; ?>
 
          </div>
      </div>
