@@ -99,6 +99,10 @@
 
      <script src="./js/controller/controller-form-general.js"></script>
 
+     <script src="./js/cart/service-cart.js"></script>
+
+     <script src="./js/cart/cart.js"></script>
+
 
      <script >
 
